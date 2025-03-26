@@ -56,7 +56,7 @@ git clone https://github.com/SaiBalaji469/sai-balaji/
 
 2️⃣ Navigate to project directory:
 ```bash
-cd Portfolio
+cd sai-balaji
 ```
 
 3️⃣ Install dependencies:
