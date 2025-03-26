@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
   <a href="#tech-stack">Tech Stack</a>
 </p>
@@ -119,12 +117,4 @@ npm run dev
   - Semantic HTML structure
   - Performance optimized
 
-## 📄 License
 
-<div align="center">
-
-MIT License © [Lohit Kolluri](LICENSE)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-
-</div>
