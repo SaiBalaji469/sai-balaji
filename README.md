@@ -47,15 +47,7 @@ mindmap
 
 </div>
 
-## 🚀 Demo
 
-Experience the live portfolio at [https://lohit.is-a.dev](https://lohit.is-a.dev)
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="image.png" alt="Hero Page" width="600px"/>
-</div>
 
 ## 🛠️ Installation
 
