@@ -53,7 +53,7 @@ mindmap
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio
+git clone https://github.com/SaiBalaji469/sai-balaji/
 ```
 
 2️⃣ Navigate to project directory:
