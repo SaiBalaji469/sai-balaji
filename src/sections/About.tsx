@@ -27,7 +27,7 @@ function About() {
 
   const mobileText = {
     intro:
-      'Hello! I am Sai Balaji, a passionate Full-Stack Developer with expertise in the MERN stack, React, Node.js, and MongoDB, dedicated to building dynamic and scalable web applications. I hold a Bachelor of Technology in Mechanical Engineering from RGUKT-IIIT Ongole.',
+      "Hello! I am Sai Balaji, a passionate Full-Stack Developer with expertise in the MERN stack, React, Node.js, and MongoDB.I hold a Bachelor of Technology in Mechanical Engineering from RGUKT-IIIT Ongole.",
     experience:
       'At Raudra EduServices, I designed and developed the company’s website, optimized the Edutech LMS, and built web projects using React, Node.js, and MongoDB. My expertise includes Redux, Firebase, and UI frameworks like Tailwind CSS and Material UI.',
   };

@@ -12,7 +12,7 @@ function Projects() {
       projectLink: 'https://book-app-frontend-silk.vercel.app/',
       projectDescription:
         'A full-stack bookstore application built with the MERN stack, featuring secure authentication, an admin dashboard, an inventory management system, and a seamless checkout process with a cash-on-delivery option.',
-      projectTech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'RTK Query', 'JWT', 'Tailwind CSS'],
+      projectTech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'JWT',],
       projectExternalLinks: {
         github: 'https://github.com/SaiBalaji469/Book-Store-Fullstack-Project',
         externalLink: 'https://book-app-frontend-silk.vercel.app/',
