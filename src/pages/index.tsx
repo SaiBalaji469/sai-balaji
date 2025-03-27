@@ -115,7 +115,7 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Balaji&apos;s Portfolio</title>
+{/*         <title>Balaji&apos;s Portfolio</title> */}
         <meta name="description" content="Balaji's personal portfolio website" />
         <link rel="canonical" href="https://sai-balaji.vercel.app/" />
         <meta property="og:title" content="Balaji's Portfolio" />
