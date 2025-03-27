@@ -118,7 +118,7 @@ function Index() {
         <title>Balaji&apos;s Portfolio</title>
         <meta name="description" content="Balaji's personal portfolio website" />
         <link rel="canonical" href="https://lohit.is-a.dev" />
-        <meta property="og:title" content="Lohit's Portfolio" />
+        <meta property="og:title" content="Balaji's Portfolio" />
         <meta property="og:description" content="" />
         <link rel="canonical" href="https:" />
         <meta property="og:url" content="https://lohit.is-a.dev" />
