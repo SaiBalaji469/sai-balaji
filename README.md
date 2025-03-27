@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
   <a href="#tech-stack">Tech Stack</a>
 </p>
@@ -47,26 +45,18 @@ mindmap
 
 </div>
 
-## 🚀 Demo
 
-Experience the live portfolio at [https://lohit.is-a.dev](https://lohit.is-a.dev)
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="image.png" alt="Hero Page" width="600px"/>
-</div>
 
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio
+git clone https://github.com/SaiBalaji469/sai-balaji/
 ```
 
 2️⃣ Navigate to project directory:
 ```bash
-cd Portfolio
+cd sai-balaji
 ```
 
 3️⃣ Install dependencies:
@@ -127,12 +117,4 @@ npm run dev
   - Semantic HTML structure
   - Performance optimized
 
-## 📄 License
 
-<div align="center">
-
-MIT License © [Lohit Kolluri](LICENSE)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-
-</div>
