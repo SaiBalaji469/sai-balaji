@@ -7,17 +7,13 @@ function Footer() {
   });
 
   useEffect(() => {
-    // Fetch GitHub information here and update state
-    // Example using GitHub API:
-    // fetch('https://api.github.com/repos/lohitkolluri/your-repo')
-    //   .then(response => response.json())
-    //   .then(data => setGitHubInfo({ stars: data.stargazers_count, forks: data.forks_count }));
+
   }, []);
 
   return (
     <footer>
       <a
-        href="https://github.com/lohitkolluri/Portfolio"
+        href="https://github.com/SaiBalaji469/sai-balaji/"
         target="_blank"
         rel="noopener noreferrer"
         className="footer-link"

@@ -67,7 +67,7 @@ function Hero() {
           <Button
             text="Check out my LinkedIn"
             link="https://www.linkedin.com/in/sai-balaji-40b695291/"
-            aria-label="LinkedIn profile of Lohit Kolluri"
+            aria-label="LinkedIn profile of sai balaji"
           />
         </motion.div>
       </motion.div>
