@@ -116,7 +116,7 @@ function Index() {
     <div className="app">
       <Head>
         <title>Balaji&apos;s Portfolio</title>
-{/*         <meta name="description" content="Balaji's personal portfolio website" />
+        <meta name="description" content="Balaji's personal portfolio website" />
         <link rel="canonical" href="https://sai-balaji.vercel.app/" />
         <meta property="og:title" content="Balaji's Portfolio" />
         <meta property="og:description" content="Balaji's personal portfolio website" />
@@ -126,16 +126,7 @@ function Index() {
         <meta
           name="google-site-verification"
           content="DgzOS3oNMuUQ4Y1sU7x860SgyvsYvnd1BCWQLFu0KT8"
-        /> */}
-        <meta property="og:title" content="Balaji's Portfolio" />
-<meta property="og:description" content="Balaji's personal portfolio website" />
-<meta property="og:image" content="https://sai-balaji.vercel.app/og-image.png" />
-<meta property="og:url" content="https://sai-balaji.vercel.app/" />
-
-<meta name="twitter:title" content="Balaji's Portfolio" />
-<meta name="twitter:description" content="Balaji's personal portfolio website" />
-<meta name="twitter:image" content="https://sai-balaji.vercel.app/og-image.png" />
-
+        />
       </Head>
       {showContent && (
         <>
