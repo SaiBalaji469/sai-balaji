@@ -8,7 +8,7 @@ function Projects() {
   [
     {
       image: '/projects/project1.webp',
-      projectName: 'Full-Stack Bookstore Application',
+      projectName: 'Bookstore Application',
       projectLink: 'https://book-app-frontend-silk.vercel.app/',
       projectDescription:
         'A full-stack bookstore application built with the MERN stack, featuring secure authentication, an admin dashboard, an inventory management system, and a seamless checkout process with a cash-on-delivery option.',
