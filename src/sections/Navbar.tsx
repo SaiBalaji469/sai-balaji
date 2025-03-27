@@ -138,7 +138,7 @@ function Navbar() {
           >
             <Button
               text="Resume"
-              link="https://drive.google.com/file/d/1KwoW5uTW2aUEoi14CnM6JGQatup_5aAf/view?usp=sharing"
+              link="https://drive.google.com/file/d/1m_una-NaZM52_EHaqhrim5__aS69bbZf/view?usp=sharing"
             />
           </motion.div>
         </motion.div>

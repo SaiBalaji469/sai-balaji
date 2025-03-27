@@ -40,7 +40,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 0.8 }}
         >
-          Lohit Kolluri.
+          Sai Balaji.
         </motion.h2>
         <motion.h3
           className="hero-title-large hero-title-sub"
@@ -56,8 +56,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.2 }}
         >
-          I&apos;m a software developer focusing on exceptional digital experiences. My interests
-          include DevOps, Web Development and AI/ML.
+          I&apos;m a Passionate Full-Stack Developer with expertise in MERN stack, React, Node.js, and MongoDB, building dynamic and scalable web applications.
         </motion.p>
         <motion.div
           className="hero-button"
@@ -67,7 +66,7 @@ function Hero() {
         >
           <Button
             text="Check out my LinkedIn"
-            link="https://linkedin.com/in/kollurilohit"
+            link="https://www.linkedin.com/in/sai-balaji-40b695291/"
             aria-label="LinkedIn profile of Lohit Kolluri"
           />
         </motion.div>

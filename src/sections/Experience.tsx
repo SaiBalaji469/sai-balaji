@@ -15,53 +15,55 @@ function Experience() {
 
   const experiences = [
     {
-      name: 'Apollo Tyres R&D',
-      role: 'Project Trainee',
-      url: 'https://www.apollotyres.com/',
-      start: 'February 2024',
-      end: 'May 2024',
-      shortDescription: [
-        'Architected a robust backend using Django and PostgreSQL to handle over 200 concurrent simulations, resulting in a 40% improvement in system performance and data retrieval efficiency.',
-        'Designed and implemented an interactive dashboard utilizing Chart.js, allowing managers to monitor job assignments and completion rates; enabled tracking of individual engineer performance across 300+ projects in real time.',
-        'Streamlined task management for a system handling over 1,000 tasks daily.',
-        'Developed a web application that optimized the simulation workflow for Apollo Tyres, enhancing task allocation efficiency by approximately 30%.',
-      ],
-    },
-    {
-      name: 'EduSkill Foundation',
-      role: 'Artificial Intelligence Intern',
-      url: 'https://www.eduskillsfoundation.org',
-      start: 'September 2023',
-      end: 'November 2023',
-      shortDescription: [
-        'Completed AWS Machine Learning and AWS Cloud Practitioner courses, gaining proficiency in deploying and scaling ML models on AWS services such as S3, Elastic Container Service, and Lambda.',
-        'Acquired cloud computing skills, including cloud security, architecture, and networking in the AWS ecosystem.',
-      ],
-    },
-    {
-      name: 'MathWorks',
-      role: 'Virtual Intern',
-      url: 'https://www.mathworks.com',
-      start: 'May 2023',
-      end: 'September 2023',
-      shortDescription: [
-        'Completed advanced courses in utilizing AI tools provided by MathWorks.',
-        'Gained proficiency in data analysis, model development, and AI tools like MATLAB.',
-        'Specialized in machine learning models for clustering, classification, and deep learning techniques for image classification.',
-      ],
-    },
-    {
-      name: 'Edunet Foundation',
-      role: 'AI Intern',
-      url: 'https://www.edunetfoundation.org',
+      name: 'Raudra EduServices Pvt. Limited',
+      role: 'Web Developer',
+      url: 'https://ravindrababuravula.in/', 
       start: 'June 2023',
-      end: 'July 2023',
+      end: 'March 2025',
       shortDescription: [
-        'Developed a precise Mental Health Fitness Tracker using Python and scikit-learn.',
-        'Improved model accuracy to 98.5% through feature engineering and ensemble methods.',
-        'Utilized 12 regression algorithms for mental fitness analysis across 150+ countries.',
+        'Designed and developed the company’s website, ensuring a responsive and user-friendly interface using React, Tailwind CSS, and Firebase.',
+        'Optimized and maintained the Edutech LMS, enhancing course management tools with progress tracking, assessments, and student data integration.',
+        'Collaborated with the APPEX team to improve platform functionality, integrating new features and resolving performance bottlenecks.',
+        'Led the development of various web projects for the curriculum, utilizing the MERN stack to create dynamic and scalable applications.',
+        'Implemented authentication and security best practices using JWT, Firebase Authentication, and secure API handling.',
       ],
     },
+    
+    // {
+    //   name: 'EduSkill Foundation',
+    //   role: 'Artificial Intelligence Intern',
+    //   url: 'https://www.eduskillsfoundation.org',
+    //   start: 'September 2023',
+    //   end: 'November 2023',
+    //   shortDescription: [
+    //     'Completed AWS Machine Learning and AWS Cloud Practitioner courses, gaining proficiency in deploying and scaling ML models on AWS services such as S3, Elastic Container Service, and Lambda.',
+    //     'Acquired cloud computing skills, including cloud security, architecture, and networking in the AWS ecosystem.',
+    //   ],
+    // },
+    // {
+    //   name: 'MathWorks',
+    //   role: 'Virtual Intern',
+    //   url: 'https://www.mathworks.com',
+    //   start: 'May 2023',
+    //   end: 'September 2023',
+    //   shortDescription: [
+    //     'Completed advanced courses in utilizing AI tools provided by MathWorks.',
+    //     'Gained proficiency in data analysis, model development, and AI tools like MATLAB.',
+    //     'Specialized in machine learning models for clustering, classification, and deep learning techniques for image classification.',
+    //   ],
+    // },
+    // {
+    //   name: 'Edunet Foundation',
+    //   role: 'AI Intern',
+    //   url: 'https://www.edunetfoundation.org',
+    //   start: 'June 2023',
+    //   end: 'July 2023',
+    //   shortDescription: [
+    //     'Developed a precise Mental Health Fitness Tracker using Python and scikit-learn.',
+    //     'Improved model accuracy to 98.5% through feature engineering and ensemble methods.',
+    //     'Utilized 12 regression algorithms for mental fitness analysis across 150+ countries.',
+    //   ],
+    // },
   ];
 
   return (
@@ -79,7 +81,7 @@ function Experience() {
       }}
     >
       <div className="title">
-        <h2>Where I&apos;ve Worked</h2>
+        <h2>Where I am Wokring</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">

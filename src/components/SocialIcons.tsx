@@ -2,9 +2,9 @@ import { Github, Instagram, Linkedin } from 'lucide-react';
 
 function SocialIcons() {
   const socialLinks = [
-    { name: 'Github', icon: <Github />, link: 'https://www.github.com/lohitkolluri' },
-    { name: 'LinkedIn', icon: <Linkedin />, link: 'https://www.linkedin.com/in/kollurilohit/' },
-    { name: 'Instagram', icon: <Instagram />, link: 'https://instagram.com/kollurilohit' },
+    { name: 'Github', icon: <Github />, link: 'https://github.com/SaiBalaji469' },
+    { name: 'LinkedIn', icon: <Linkedin />, link: 'https://www.linkedin.com/in/sai-balaji-40b695291/' },
+    { name: 'Instagram', icon: <Instagram />, link: '#' },
   ];
 
   return (

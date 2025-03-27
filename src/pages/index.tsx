@@ -115,7 +115,7 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Lohit&apos;s Portfolio</title>
+        <title>Balaji&apos;s Portfolio</title>
         <meta name="description" content="Lohit's personal portfolio website" />
         <link rel="canonical" href="https://lohit.is-a.dev" />
         <meta property="og:title" content="Lohit's Portfolio" />

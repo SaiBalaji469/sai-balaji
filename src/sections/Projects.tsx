@@ -4,44 +4,48 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 function Projects() {
-  const projectsData = [
+  const projectsData = 
+  [
     {
       image: '/projects/project1.webp',
-      projectName: 'NLP2SQL',
-      projectLink: 'https://nlp2sql.streamlit.app/',
+      projectName: 'Full-Stack Bookstore Application',
+      projectLink: 'https://book-app-frontend-silk.vercel.app/',
       projectDescription:
-        'A natural language to SQL query converter that transforms text input into structured SQL queries for database execution, streamlining database interactions through intuitive language processing.',
-      projectTech: ['Streamlit', 'Azure OpenAI', 'SQLite3', 'Altair'],
+        'A full-stack bookstore application built with the MERN stack, featuring secure authentication, an admin dashboard, an inventory management system, and a seamless checkout process with a cash-on-delivery option.',
+      projectTech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'RTK Query', 'JWT', 'Tailwind CSS'],
       projectExternalLinks: {
-        github: 'https://github.com/lohitkolluri/NLP2SQL',
-        externalLink: 'https://nlp2sql.streamlit.app/',
+        github: 'https://github.com/SaiBalaji469/Book-Store-Fullstack-Project',
+        externalLink: 'https://book-app-frontend-silk.vercel.app/',
       },
     },
     {
       image: '/projects/project2.webp',
-      projectName: 'FlaskPost',
-      projectLink: 'https://flask-post.vercel.app/',
+      projectName: 'Netflix Clone Application',
+      projectLink: 'https://netflix-react-tailwind-tau.vercel.app/',
       projectDescription:
-        'A FastAPI-powered mass email platform featuring SMTP configuration, CSV recipient management, and HTML template customization with live preview functionality.',
-      projectTech: ['FastAPI', 'REST API', 'Jinja2', 'Fast Mail'],
+        'A Netflix-inspired streaming platform using React and Firebase, integrated with the TMDB API to fetch real-time movie data. Features user authentication, a watchlist, and a modern, responsive UI.',
+      projectTech: ['React', 'Firebase', 'TMDB API', 'Tailwind CSS', 'Firestore'],
       projectExternalLinks: {
-        github: 'https://github.com/lohitkolluri/FlaskPost',
-        externalLink: 'https://github.com/lohitkolluri/FlaskPost',
+        github: 'https://github.com/SaiBalaji469/netflix-react-tailwind-',
+        externalLink: 'https://netflix-react-tailwind-tau.vercel.app/',
       },
     },
     {
       image: '/projects/project3.webp',
-      projectName: 'Compile Vortex',
-      projectLink: 'https://compile-vortex.vercel.app/',
+      projectName: 'Food App',
+      projectLink: 'https://food-app-six-omega.vercel.app/',
       projectDescription:
-        'A web-based code editor supporting 40+ programming languages with customizable themes and real-time compilation capabilities.',
-      projectTech: ['React', 'Node.js', 'Judge0 Api', 'Microsoft Azure'],
+        'A responsive React.js website built with Tailwind CSS, following a mobile-first design approach. It dynamically fetches and filters data from a simulated API (data.js), providing an interactive and seamless user experience.',
+      projectTech: ['React', 'Tailwind CSS'],
       projectExternalLinks: {
-        github: 'https://github.com/lohitkolluri/CompileVortex',
-        externalLink: 'https://compile-vortex.vercel.app/',
+        github: 'https://github.com/SaiBalaji469/Food-App',
+        externalLink: 'https://food-app-six-omega.vercel.app/',
       },
     },
   ];
+  
+  
+  
 
   return (
     <div id="work" className="projects" style={{ paddingTop: '170px' }}>

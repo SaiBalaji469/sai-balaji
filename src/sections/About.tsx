@@ -27,17 +27,18 @@ function About() {
 
   const mobileText = {
     intro:
-      'Hello! I am Lohit Kolluri, a Full Stack Developer passionate about DevOps and Machine Learning. I hold a Bachelor of Technology from SRM Institute of Science and Technology.',
+      'Hello! I am Sai Balaji, a passionate Full-Stack Developer with expertise in the MERN stack, React, Node.js, and MongoDB, dedicated to building dynamic and scalable web applications. I hold a Bachelor of Technology in Mechanical Engineering from RGUKT-IIIT Ongole.',
     experience:
-      'At Apollo Tyres R&D, I developed an intelligent task queuing system and architected scalable solutions. My expertise includes Python, Cloud platforms (AWS, GCP), and frameworks like FastAPI and Flask.',
+      'At Raudra EduServices, I designed and developed the company’s website, optimized the Edutech LMS, and built web projects using React, Node.js, and MongoDB. My expertise includes Redux, Firebase, and UI frameworks like Tailwind CSS and Material UI.',
   };
-
+  
   const desktopText = {
     intro:
-      'Hello! I am Lohit Kolluri, a Full Stack Developer passionate about DevOps and Machine Learning. With experience across a wide array of technologies, I strive to deliver scalable, cost-effective solutions. I hold a Bachelor of Technology from SRM Institute of Science and Technology, with a focus on cloud computing, backend development, and intelligent automation.',
+      'Hello! I am Sai Balaji, a Full-Stack Developer with a strong foundation in web development and a keen interest in building scalable, high-performance applications. I hold a Bachelor of Technology in Mechanical Engineering from RGUKT-IIIT Ongole and have hands-on experience with modern web technologies.',
     experience:
-      'At Apollo Tyres R&D, I developed an intelligent task queuing system and architected a scalable backend using Django and PostgreSQL, boosting performance by 40%. My hands-on experience spans Python, Google Cloud, AWS, and frameworks like FastAPI and Flask. I have led projects such as a Natural Language to SQL Converter that reduced deployment costs by 40% while improving query accuracy to 95%.',
+      'At Raudra EduServices, I played a key role in developing and optimizing the company’s Edutech platform, integrating advanced features like progress tracking, course management, and authentication. My expertise spans React, Redux, Node.js, Express.js, MongoDB, Firebase, and UI frameworks like Tailwind CSS and Material UI. I have developed projects like a Full-Stack Bookstore, a Netflix Clone, and a URL Shortener, demonstrating my ability to create efficient and user-friendly applications.',
   };
+  
 
   return (
     <motion.div
@@ -71,10 +72,10 @@ function About() {
 
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">Next.js</li>
+            <li className="about-grid-info-list-item">MongoDB</li>
             <li className="about-grid-info-list-item">Node.js</li>
             <li className="about-grid-info-list-item">TailwindCSS</li>
-            <li className="about-grid-info-list-item">Azure</li>
+            <li className="about-grid-info-list-item">Docker</li>
             <li className="about-grid-info-list-item">Google Cloud</li>
           </ul>
         </div>

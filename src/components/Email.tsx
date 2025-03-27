@@ -12,11 +12,11 @@ function Email() {
       }}
     >
       <a
-        href="mailto:lohitkolluri@gmail.com"
+        href="mailto:lbalajijayavarapu.469@gmail.com"
         className="email-link"
         aria-label="Email Lohit Kolluri"
       >
-        lohitkolluri@gmail.com
+        balajijayavarapu.469@gmail.com
       </a>
     </motion.div>
   );
