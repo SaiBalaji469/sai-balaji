@@ -1,4 +1,4 @@
-import { AnimatePresence, motion, Variants } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 
@@ -30,20 +30,6 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
     exit: { opacity: 0, scale: 0.8, transition: { duration: 0.6 } },
   };
 
-  const pathVariants = {
-    hidden: { pathLength: 0, opacity: 0 },
-    visible: {
-      pathLength: 1,
-      opacity: 1,
-      transition: {
-        duration: 2.5,
-        ease: 'easeInOut',
-        repeat: Infinity,
-        repeatType: 'reverse',
-      },
-    },
-  };
-
   return (
     <AnimatePresence>
       {isLoading && (
@@ -51,97 +37,70 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
           <motion.svg
             id="logo"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
+            viewBox="0 0 150 100"
             variants={svgVariants}
             custom={0}
           >
-            <title>Lohit Kolluri</title>
+            <title>S B Loader</title>
             <defs>
               <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style={{ stopColor: '#8892AF', stopOpacity: 1 }} />
                 <stop offset="100%" style={{ stopColor: '#CCD6F6', stopOpacity: 1 }} />
               </linearGradient>
             </defs>
+
             <g>
-              {/* Letter L */}
-              <motion.rect
-                x="15"
-                y="15"
-                width="20"
-                height="70"
-                fill="url(#grad1)"
-                stroke="#8892AF"
-                strokeWidth="2"
-                variants={svgVariants}
-                custom={1}
-              />
-              <motion.rect
-                x="15"
-                y="65"
-                width="50"
-                height="20"
-                fill="url(#grad1)"
-                stroke="#8892AF"
-                strokeWidth="2"
-                variants={svgVariants}
-                custom={1.5}
-              />
+              {/* Letter S */}
+              <motion.rect x="10" y="15" width="50" height="20" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="10" y="15" width="20" height="40" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="10" y="45" width="50" height="20" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="40" y="45" width="20" height="40" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="10" y="75" width="50" height="20" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
 
-              {/* Letter K */}
-              <motion.path
-                d="M 65 15 L 65 55 L 45 35 L 65 15 L 85 15 L 65 55 L 85 95 L 65 95 L 65 55"
-                fill="url(#grad1)"
-                stroke="#8892AF"
-                strokeWidth="2"
-                variants={pathVariants as Variants}
-              />
+              {/* Space between S and B */}
 
-              {/* Additional Shapes */}
+              {/* Letter B */}
+              <motion.rect x="80" y="15" width="20" height="80" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="100" y="15" width="40" height="20" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="100" y="45" width="40" height="20" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="100" y="75" width="40" height="20" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="130" y="15" width="10" height="30" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+              <motion.rect x="130" y="65" width="10" height="30" fill="url(#grad1)" stroke="#8892AF" strokeWidth="2" />
+
+              {/* Additional Animated Shapes */}
               <motion.circle
-                cx="25"
+                cx="35"
                 cy="25"
-                r="5"
+                r="7"
                 fill="#CCD6F6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ repeat: Infinity, repeatType: 'reverse', duration: 2 }}
               />
               <motion.circle
-                cx="75"
+                cx="110"
                 cy="75"
-                r="5"
+                r="7"
                 fill="#CCD6F6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ repeat: Infinity, repeatType: 'reverse', duration: 2, delay: 0.5 }}
               />
-              <motion.polygon
-                points="50,10 60,30 40,30"
-                fill="#CCD6F6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1, rotate: 360 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 5 }}
-              />
-              <motion.polygon
-                points="30,90 40,70 20,70"
-                fill="#CCD6F6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1, rotate: 360 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 5, delay: 1 }}
-              />
 
               {/* Glowing Effect */}
               <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-                <feGaussianBlur stdDeviation="3.5" result="coloredBlur" />
+                <feGaussianBlur stdDeviation="4.5" result="coloredBlur" />
                 <feMerge>
                   <feMergeNode in="coloredBlur" />
                   <feMergeNode in="SourceGraphic" />
                 </feMerge>
               </filter>
+
+              {/* Enlarged Animated Circle */}
               <motion.circle
-                cx="50"
+                cx="75"
                 cy="50"
-                r="40"
+                r="55" // Increased from 40 to 55
                 fill="none"
                 stroke="#CCD6F6"
                 strokeWidth="2"
@@ -150,7 +109,7 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
                 animate={{ opacity: 1 }}
                 transition={{ repeat: Infinity, repeatType: 'reverse', duration: 2 }}
               >
-                <animate attributeName="r" values="40;45;40" dur="2s" repeatCount="indefinite" />
+                <animate attributeName="r" values="55;60;55" dur="2s" repeatCount="indefinite" />
               </motion.circle>
             </g>
           </motion.svg>
