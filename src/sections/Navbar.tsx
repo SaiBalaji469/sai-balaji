@@ -8,6 +8,7 @@ import Logo from '../components/Logo';
 function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const sectionLinks = [
     { name: 'About', link: '/#about' },
     { name: 'Experience', link: '/#experience' },
@@ -63,7 +64,7 @@ function Navbar() {
           }}
         >
           <Link href="">
-            <Logo />
+            <Logo isLoading={isLoading} setIsLoading={setIsLoading} />
           </Link>
         </motion.div>
         <motion.div
