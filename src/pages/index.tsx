@@ -117,11 +117,11 @@ function Index() {
       <Head>
         <title>Balaji&apos;s Portfolio</title>
         <meta name="description" content="Balaji's personal portfolio website" />
-        <link rel="canonical" href="https://lohit.is-a.dev" />
-        <meta property="og:title" content="Lohit's Portfolio" />
+        <link rel="canonical" href="https://sai-balaji.vercel.app/" />
+        <meta property="og:title" content="Balaji's Portfolio" />
         <meta property="og:description" content="" />
         <link rel="canonical" href="https:" />
-        <meta property="og:url" content="https://lohit.is-a.dev" />
+        <meta property="og:url" content="https://sai-balaji.vercel.app/" />
         <link rel="shortcut icon" href="/favicon.png" />
         <meta
           name="google-site-verification"
