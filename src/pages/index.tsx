@@ -118,9 +118,9 @@ function Index() {
         <title>Balaji&apos;s Portfolio</title>
         <meta name="description" content="Balaji's personal portfolio website" />
         <link rel="canonical" href="https://sai-balaji.vercel.app/" />
-        <meta property="og:title" content="Balaji's Portfolio" />
+{/*         <meta property="og:title" content="Balaji's Portfolio" /> */}
         <meta property="og:description" content="" />
-        <link rel="canonical" href="https:" />
+        <link rel="canonical" href="https://sai-balaji.vercel.app/" />
         <meta property="og:url" content="https://sai-balaji.vercel.app/" />
         <link rel="shortcut icon" href="/favicon.png" />
         <meta
