@@ -116,12 +116,17 @@ function Index() {
     <div className="app">
       <Head>
         <title>Balaji&apos;s Portfolio</title>
-        <meta name="description" content="Balaji's personal portfolio website" />
+        <meta name="description" content="Balaji's personal portfolio website showcasing professional experience, projects, and skills" />
         <link rel="canonical" href="https://sai-balaji.vercel.app/" />
         <meta property="og:title" content="Balaji's Portfolio" />
-        <meta property="og:description" content="" />
-        <link rel="canonical" href="https://sai-balaji.vercel.app/" />
+        <meta property="og:description" content="Balaji's personal portfolio website showcasing professional experience, projects, and skills" />
         <meta property="og:url" content="https://sai-balaji.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://sai-balaji.vercel.app/favicon.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Balaji's Portfolio" />
+        <meta name="twitter:description" content="Balaji's personal portfolio website showcasing professional experience, projects, and skills" />
+        <meta name="twitter:image" content="https://sai-balaji.vercel.app/favicon.png" />
         <link rel="shortcut icon" href="/favicon.png" />
         <meta
           name="google-site-verification"
