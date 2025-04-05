@@ -7,7 +7,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'lohitcdn.blob.core.windows.net',
+        hostname: 'balajicdn.blob.core.windows.net',
         port: '',
         pathname: '/**',
       },
